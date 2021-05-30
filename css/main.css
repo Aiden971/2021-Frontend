@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@keyframes bootingup{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body {
+    background: #F2F2F2;
+    font-family: 'Poppins';
+    animation: bootingup 0.75s;
+}
+h1{
+    text-align: center;
+    color: #191f1f;
+    background-color: #F2F2F2;
+    padding: 1.2em;
+    line-height: 1.3em;
+    border-radius: 5em;
+    animation: bootingup 2s;
+}
+
+.button {
+    padding: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1.2em;
+    text-align: center;
+}
+
+.backend-left-button{
+    text-decoration: none;
+    font-weight: bold;   
+    background: #f70303;    
+    color:#252B2B;
+    font-size: 1em;
+    cursor: pointer;
+    margin:1em;
+    padding: 0.8em 3em;
+    border-radius: 5em;
+    display: inline-block;
+    animation: bootingup 2s;
+}
+.backend-right-button{
+    text-decoration: none;
+    font-weight: bold;
+    color: #252B2B;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0.8em 2em;
+    border-radius: 5em;
+    background: #469E9E;
+    display: inline-block;
+    animation: bootingup 2s;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+section{
+    padding:5em 2em;
+}
+.our-names{
+    text-align: center;
+    background: #20272E;
+    color: white;
+    animation: bootingup 2s;
+}
